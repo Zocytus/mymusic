@@ -114,7 +114,7 @@ const app = {
             cd.style.width = newCdWidth? newCdWidth + 'px' : 0;
             cd.style.opacity = newCdWidth / cdWidth;
         };
-        // Xử lý nút phát và dừng
+        
         playBtn.onclick = function() {
             if(_this.isPlaying){
                 audio.pause();
